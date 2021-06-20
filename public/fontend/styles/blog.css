@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.blog-heading-section h1 {
+	font-size:26px;
+	font-family: 'Roboto';
+}
+
+.blog-content-section {
+	background:sdfsdf
+}
+.blog-category-links {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.blog-category-links a {
+	border: 1px solid;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0px 5px;
+	padding: 0px 15px 0px 15px;
+	line-height: 45px;
+	font-size:16px;
+	color:#559dd5;
+}
+.blog-category-links a span {
+	margin-right: 10px;
+}
+.blog-meta {
+	overflow: hidden;
+	margin-top: 15px;
+	color: #A5A5A5;
+}
+.blog-meta .postby {
+	float: left;
+}
+.blog-meta .postdate {
+	float: right;
+}
+.blog-box h3 a {
+	color: #222222;
+}
+.blog-box h3 a:hover, .blog-box h3 a:focus {
+	text-decoration:underline;
+}
+.read-post {
+	border: 1px solid;
+	border-radius: 5px;
+	line-height: 38px;
+	display: inline-block;
+	padding: 0px 15px;
+	font-size: 15px;
+	color: #559dd5;
+}
+.read-post:hover, .read-post:focus {
+	background:#559dd5;
+	color:#ffffff;
+}
+.post-comment {
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 15px;
+}
+.blog-content-bottom {
+	margin-bottom: 15px;
+}
+.blog-box p {
+	font-size: 16px;
+	font-family: robotolight;
+}
+.blog-box {
+	margin-bottom:30px;
+}
+.signup-ecommerce-guide {
+	background: #5173d8 url(../images/signup-guide-background.png);
+	padding: 30px 0;
+	margin-bottom:30px;
+}
+.signup-ecommerce-guide h3 {
+	color: #ffffff;
+	font-size: 32px;
+	font-family: robotobold;
+	line-height: normal;
+	margin-bottom: 30px;
+}
+.btn-download {
+	/* background: #ffba00; */
+	/* background: -moz-linear-gradient(top, #ffba00 0%, #ff9900 100%); */
+	/* background: -webkit-linear-gradient(top, #ffba00 0%,#ff9900 100%); */
+	background: linear-gradient(to bottom, #ffba00 0%,#ff9900 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffba00', endColorstr='#ff9900',GradientType=0 );
+	color: #ffffff;
+	border-radius: 5px;
+	line-height: normal;
+	padding: 12px 40px;
+	font-size: 22px;
+	font-family: robotobold;
+	border: 2px solid #f19200;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+	display: inline-block;
+}
+.btn-download:hover {
+	color: #ffffff;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9900+0,ffba00+100 */
+	background: #ff9900; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff9900 0%, #ffba00 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ff9900 0%,#ffba00 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ff9900 0%,#ffba00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9900', endColorstr='#ffba00',GradientType=0 ); /* IE6-9 */
+}
+.signup-freecourse {
+	background:#ebeef7;
+	padding: 30px 0;
+}
+.signup-freecourse h3 {
+	color: #222222;
+	font-size: 32px;
+	font-family: robotobold;
+	line-height: normal;
+	margin-bottom: 30px;
+}
+.single-blog-info {
+	padding-bottom:50px;
+}
+.single-blog-info .postby {
+	font-size:16px;
+}
+.single-blog-info .postby span {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	overflow: hidden;
+	float:left;
+	vertical-align: middle;
+	margin-right: 15px;
+	border: 3px solid rgba(0,0,0,0.1);
+}
+.postby-author {
+	margin-top: 10px;
+	display: inline-block;
+}
+.single-blog-info h1 {
+	line-height: normal;
+	font-family: robotobold;
+	margin-bottom: 30px;
+}
+.single-blog-description {
+	padding: 0px 10%;
+	font-size:16px;
+	font-family:robotolight;
+}
+.single-blog-description h2 {
+	font-family: robotomedium;
+	font-size: 22px;
+	color: #222222;
+}
+.single-blog-description h5 {
+	font-family: robotomedium;
+	font-size: 20px;
+	color: #3688c8;
+	margin-top:30px;
+}
+.blog-content-section {
+	padding:50px 0px;
+}
+
+.no-bg {
+    background: none;
+}
+
+.no-hover-bg:hover {
+    background: none;
+}
+
+.no-border {
+    border: none;
+}
+
+.pagination .prev, .pagination .next {
+    float: initial;
+}
+
+/* SAS - Customize AddThis share buttons */
+/*.atss .at-share-btn span {
+background: transparent !important;
+}
+.atss .at-share-btn span svg {
+fill: #3685c5 !important;
+}
+
+.atss .at-share-btn, .atss a {
+background: transparent;
+}
+.at-share-close-control .at4-arrow.at-left {
+display: none;
+}
+.atss .at-share-btn, .atss a { background: transparent !important;}
+.at-share-close-control .at4-arrow.at-left { display: none;}*/
+
+/*#at4-share, #at4-soc {
+	left: 8%;
+}*/
+
+/* https://stackoverflow.com/questions/8564752/common-breakpoints-for-media-queries-on-a-responsive-site */
+/*@media screen and (min-width:1200px) {
+	#at4-share, #at4-soc {
+		left: 8%;
+	}
+}
+
+@media screen and (min-width:1600px) {
+	#at4-share, #at4-soc {
+		left: 16%;
+	}
+}
+
+@media screen and (min-width:1900px) {
+	#at4-share, #at4-soc {
+		left: 22%;
+	}
+}*/
+
+.eapps-social-share-buttons-bg-color-white .eapps-social-share-buttons-item::before, .eapps-social-share-buttons-bg-color-on-hover-white .eapps-social-share-buttons-item::after {
+    background: transparent;
+}
+
+/*.elfsight-app-707e11df-dad3-4219-92d2-15381126f0cb, */
+#eapps-social-share-buttons-1 {
+	padding-left: 80px;
+	margin-top: -10px;
+}
+/* EAS - Customize AddThis share buttons */
+
+.postby-social {
+	margin-top: 5px;
+}
+.postby-social a {
+	margin-right: 5px;
+}
+.postby-social a.link-facebook {
+	color:#4b69b0;
+}
+.postby-social a.link-twitter {
+	color:#37b1e1;
+}
+.postby-social a.link-linkedin {
+	color:#0678b6;
+}
+.postby-social a.link-envelope {
+	color:#ff9900;
+}
+.scroll-box {
+	margin-top: 20px;
+	padding: 0 0 0 15px;
+}
+.scroll-box a {
+	color: #3688c8;
+	font-size: 18px;
+	display: inline-block;
+	margin-bottom: 15px;
+	font-family: "robotomedium";
+	text-decoration: underline;
+}
+.scroll-box a span {
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 26px;
+	color: #ffffff;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right:20px;
+	background: #3688c8;
+	font-size: 14px;
+}
+.scroll-div {
+	position:relative;
+}
+.scroll-div:before1 {
+	height: 80px;
+	position: relative;
+	content: "";
+	background:transparent;
+	width: 100%;
+	display: block;
+}
+.blog-author-information {
+	border-top: 1px solid #dddddd;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.blog-author-information .author-info span {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.blog-author-information .postby-social {
+	margin-top: 10px;
+}
